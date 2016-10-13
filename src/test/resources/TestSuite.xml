@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Test Plan" verbose="1">
+	<parameter name="date" value="2013"/>
+	<parameter name="price" value="1000"/>
+	<parameter name="diagfrom" value="39"/>
+	<parameter name="diagto" value="42"/>
+	<parameter name="maker" value="Samsung"/>
+	
+	<!--<test name="Functional Tests" preserve-order="true">-->
+		<!--<classes>-->
+ 			<!--<class name="demo.test.DemoTest" />-->
+        <!--</classes>-->
+	<!--</test>-->
+
+	<test name="TV Test" preserve-order="true">
+		<classes>
+			<class name="demo.test.TVTest" />
+		</classes>
+	</test>
+
+</suite>
